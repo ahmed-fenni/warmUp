@@ -12,6 +12,7 @@
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
+<<<<<<< HEAD
    
  function isEven(x, y) {
 	var arr=createArr(x,y)
@@ -30,6 +31,12 @@
     }
 return arr
  }
+=======
+
+// function isEven(x, y) {
+
+// }
+>>>>>>> a293eee4d2c674c5243436c035f584a16e547e59
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
