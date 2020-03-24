@@ -1,16 +1,6 @@
 // Style your code and explain it step by step before jumping to code :D
 // Read carefully, focus and test your code :) ... /\ HaPPy HaCkInG /\
 
-//1. Write a JavaScript function to check whether an `input` is an array or not
-// ex isArray([1,2])=>true
-//    isArray(5)=>false
-   function array(arr){
-   	 
-   	if (Array.isArray(arr)){
-   		return true
-   	}
-        return false
-   }
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -18,21 +8,14 @@
 // **************** git status ****************
 // **************** git push origin master ****************
 
-//2-Write a JavaScript function to get the first n element of an array.
-//ex  first([1,2,3],1)=>[1]
-//    first([1,2,3,4],2)=>[1,2]
-<<<<<<< HEAD
-function FirstElement(arr,count){
-	 debugger
-	 var total=[]
-  for(var i = 0;i<count;i++){
-  	total.push(arr[i])
-  }
-=======
->>>>>>> 0e47aea7be29872390744ebf393e4da84d716048
-
-	return total;
-}
+// 1- Using recursion Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
+function gcd(x,y){
+	if (x>y){
+	    return (x%y)
+	}
+   
+      return  gcd(x,y-y)
+	}
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -40,25 +23,15 @@ function FirstElement(arr,count){
 // **************** git status ****************
 // **************** git push origin master ****************
 
-//3- Write a JavaScript function to convert an object into a list of `[key, value]` pairs
-//ex: convert({name:'ahmed',age:20})=>[['name','ahmed'],['age', 20]]
-
- function convert(obj){
- debugger
- 	var total=[]
- 	for(i=0;i>0;i++){
-       total.push(Object.keys(obj[i]))
-       total.push(Object.values(obj[i]))
-            
-}
- return total
-    
+// 2-Write a function called sum that accepts two numbers as parameters, and sum them together but without suming them togther directly
+//you can only add one at each summetion, you'll need to use recursion in this.
+function sum(x,y){	
+if (y===0){
+ 		return x;
  	}
+    return add(x+1,y-1)
+ }
  
-
-
-
-
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
