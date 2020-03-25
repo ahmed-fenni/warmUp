@@ -13,7 +13,11 @@
     }
         return false;
 
+<<<<<<< HEAD
     }
+=======
+
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
   function primeNumber(n){
   	if (n===2 || n===3){
@@ -27,9 +31,13 @@
   return false
   }
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
+<<<<<<< HEAD
   function SameVal (n,r){
   	if (n==r){
   		return true;
   	}
         return false;
   }
+=======
+
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
